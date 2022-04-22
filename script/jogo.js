@@ -18,11 +18,11 @@ function atualizaturno()
 
     if(playtime == player1)
     {
-        player.setAttribute('src', '../estilo/imagens/xis.png')
+        player.setAttribute('src', 'estilo/imagens/xis.png')
     }
     else
     {
-        player.setAttribute('src', '../estilo/imagens/circulo.png')
+        player.setAttribute('src', 'estilo/imagens/circulo.png')
     }
 }
 
@@ -43,7 +43,7 @@ function inicializar()
             {
                 if(playtime == player1)
                 {
-                    this.innerHTML = "<img src='../estilo/imagens/xis.png'>"
+                    this.innerHTML = "<img src='estilo/imagens/xis.png'>"
                     this.setAttribute('jogada', player1)
 
                     playtime = player2
@@ -51,7 +51,7 @@ function inicializar()
                 }
                 else
                 {
-                    this.innerHTML = "<img src='../estilo/imagens/circulo.png'>"
+                    this.innerHTML = "<img src='estilo/imagens/circulo.png'>"
                     this.setAttribute('jogada', player2)
 
                     playtime = player1
